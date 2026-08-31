@@ -21,8 +21,8 @@ export default function Home() {
         <div className="hero-glow" aria-hidden="true" />
 
         <nav className="topbar" aria-label="Monthsary details">
-          <span className="brand-mark">J <Heart size={12} fill="currentColor" /> B</span>
-          <span className="date-pill">01 · 09 · 2026</span>
+          <span className="brand-mark" aria-label="John loves Angelic">J <Heart size={12} fill="currentColor" /> A</span>
+          <span className="date-pill">SEPTEMBER 1, 2026</span>
         </nav>
 
         <div className="hero-copy">
