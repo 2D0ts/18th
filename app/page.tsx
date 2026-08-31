@@ -44,23 +44,23 @@ export default function Home() {
       </section>
 
       <section className="memory-section" aria-labelledby="memory-title">
-        <div className="section-label"><Sparkles size={14} /> August, in one small moment</div>
+        <div className="section-label"><Sparkles size={14} /> August, over one little meal</div>
         <div className="memory-layout">
           <div className="memory-copy">
-            <p className="chapter">01 / THE QUICK DATE</p>
-            <h2 id="memory-title">It didn’t have to be long<br />to mean <em>everything.</em></h2>
+            <p className="chapter">01 / OUR QUICK MEAL</p>
+            <h2 id="memory-title">It wasn’t just<br />the meal—it was <em>us.</em></h2>
             <p>
-              We only met once this August. It was quick, simple, and over too soon—but I wanted
-              to see you because I missed you. Sometimes one moment with the right person is enough
-              to light up an entire month.
+              We only met once this August, but we still found somewhere new to explore and shared
+              a meal together. The date was quick, the table was full, and of course busog tayo—but
+              being with you is what made that simple moment feel complete.
             </p>
           </div>
 
           <figure className="memory-card">
-            <div className="memory-image" aria-hidden="true" />
+            <img className="memory-image" src="/our-meal.png" alt="The meal Bubbyy and I shared on our quick August date" />
             <figcaption>
-              <span><MapPin size={14} /> Somewhere beneath the city lights</span>
-              <strong>One quick date. One favorite person.</strong>
+              <span><MapPin size={14} /> A table for two</span>
+              <strong>Busog together. Happy together.</strong>
             </figcaption>
           </figure>
         </div>
